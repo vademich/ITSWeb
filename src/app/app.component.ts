@@ -2,13 +2,18 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
 import { HeaderComponentComponent } from './components/header-component/header-component.component';
+import { MainComponent } from './components/main/main.component';
 import { EmployeeComponent } from './components/employee/employee.component';
 import { TruckComponent } from './components/truck/truck.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet, HeaderComponentComponent, EmployeeComponent, TruckComponent],
+  imports: [CommonModule, RouterOutlet, 
+    HeaderComponentComponent,
+    MainComponent,
+    EmployeeComponent, 
+    TruckComponent],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css', '../fonts/fonts.css']
 })
