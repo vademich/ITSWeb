@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, Input,
+      Output,
+      EventEmitter } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
@@ -9,5 +11,6 @@ import { CommonModule } from '@angular/common';
   styleUrl: './employee.component.css'
 })
 export class EmployeeComponent {
-
+  @Input() employeeName = 'Имя Фамилия';
+  @Input() job = 'Должность';
 }

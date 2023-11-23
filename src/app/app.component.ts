@@ -14,4 +14,10 @@ import { EmployeeComponent } from './components/employee/employee.component';
 })
 export class AppComponent {
   title = 'ITSWeb';
+  employeeName1 = 'Герберт Ромберг';
+  employeeJob1 = 'Основатель компании';
+  employeeName2 = 'Дмитрий Рыков';
+  employeeJob2 = 'Руководитель IT отдела';
+  employeeName3 = 'Вадим Гончаров';
+  employeeJob3 = 'Frontend developer';
 }
