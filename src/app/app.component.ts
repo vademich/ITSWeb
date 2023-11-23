@@ -9,7 +9,8 @@ import { EmployeeComponent } from './components/employee/employee.component';
   standalone: true,
   imports: [CommonModule, RouterOutlet, HeaderComponentComponent, EmployeeComponent],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  // styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css', '../fonts/fonts.css']
 })
 export class AppComponent {
   title = 'ITSWeb';
