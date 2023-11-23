@@ -1,0 +1,51 @@
+.truck{
+    position: relative;
+    top: 90px;
+    /* background-image: url('./src/images/truck.svg'); */
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    visibility: hidden;
+
+    display: flex;
+    width: 1030.729px;
+    height: 537.733px;
+    padding: 0px 0px 69.943px 72.41px;
+    justify-content: flex-end;
+    align-items: center;
+    flex-shrink: 0;
+
+
+    animation-name: slide;
+    animation-delay: 3s;
+    animation-duration: 3000ms;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+@keyframes slide {
+    from{
+        transform: translate(100px);
+        opacity: 0;
+        visibility: hidden;
+    }
+    to{
+        opacity: 100%;
+        visibility: initial;
+    }
+}
+/* .truck:hover{
+    position: relative;
+    top: 90px;
+    background-image: url(src/images/truck-light.svg), url(src/images/truck.svg);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    object-fit: cover;
+
+    display: flex;
+    width: 1030.729px;
+    height: 537.733px;
+    padding: 0px 0px 69.943px 72.41px;
+    justify-content: flex-end;
+    align-items: center;
+    flex-shrink: 0;
+} */
