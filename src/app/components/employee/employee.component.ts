@@ -11,4 +11,5 @@ import { CommonModule } from '@angular/common';
 export class EmployeeComponent {
   @Input() employeeName = 'Имя Фамилия';
   @Input() job = 'Должность';
+  @Input() employeeImage = "../assets/images/people/background.png";
 }
