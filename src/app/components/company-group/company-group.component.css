@@ -91,6 +91,12 @@
     height: 100%;
 }
 .square-title:hover{color: #FFF;}
+
 .square-text{
-    visibility: hidden;
+    color: var(--primary-white, #FFF);
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
 }
