@@ -55,28 +55,37 @@
 
     transition-duration: 0.5s;
     transition-property: all;
+
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: bottom right, center right;
+    background-position-x: 200px;
 }
-.its:hover{
-    background-color: #002ED0;
+
+.its{background-image: url(../../../assets/images/company-group/shadow.svg), url(../../../assets/images/company-group/ITS.svg);}
+.its:hover{background-color: #002ED0;}
+.mts{background-image: url(../../../assets/images/company-group/shadow.svg), url(../../../assets/images/company-group/MTS.svg);}
+.mts:hover{background-color: #007FF3;}
+.m3{background-image: url(../../../assets/images/company-group/shadow.svg), url(../../../assets/images/company-group/M3.svg);}
+.m3:hover{background-color: #2FC94C;}
+.mir_stroy{background-image: url(../../../assets/images/company-group/shadow.svg), url(../../../assets/images/company-group/MIR_STROY.svg);}
+.mir_stroy:hover{background-color: #FF7800;}
+.it{background-image: url(../../../assets/images/company-group/shadow.svg), url(../../../assets/images/company-group/IT.svg);}
+.it:hover{background-color: #7221D5;}
+.pk{background-image: url(../../../assets/images/company-group/shadow.svg), url(../../../assets/images/company-group/PK.svg);}
+.pk:hover{background-color: #043860;}
+.kapital{background-image: url(../../../assets/images/company-group/shadow.svg), url(../../../assets/images/company-group/KAPITAL.svg);}
+.kapital:hover{background-color: #FFB700;}
+.tender{background-image: url(../../../assets/images/company-group/shadow.svg), url(../../../assets/images/company-group/TENDER.svg);}
+.tender:hover{background-color: #00BDC8;}
+.square-title{
+    color: #3A3A3A;
+    font-family: Gilroy;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
 }
-.mts:hover{
-    background-color: #007FF3;
-}
-.m3:hover{
-    background-color: #2FC94C;
-}
-.mir_stroy:hover{
-    background-color: #FF7800;
-}
-.it:hover{
-    background-color: #7221D5;
-}
-.pk:hover{
-    background-color: #043860;
-}
-.kapital:hover{
-    background-color: #FFB700;
-}
-.tender:hover{
-    background-color: #00BDC8;
+.square-text{
+    visibility: hidden;
 }
