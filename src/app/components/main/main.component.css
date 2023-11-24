@@ -4,7 +4,7 @@
     height: 675px;
     background: #F5F6FB;
 }
-img {
+/* img {
     object-fit: cover;
     width: 206px;
     height: 452px;
@@ -17,7 +17,7 @@ img {
 }
 img:hover{
     width: 249px;
-}
+} */
 
 .rectangle1349{
     width: 379px;
@@ -30,6 +30,7 @@ img:hover{
     border-radius: 20px;
     background: linear-gradient(152deg, #002ED0 8.86%, #021C75 98.88%);
     z-index: 0;
+    
 
     color: #FFF;
     font-family: Gilroy;
@@ -58,11 +59,122 @@ img:hover{
     top: 231px;
     left: 42px;
 }
-.rgb-row{
+/* .rgb-row{
     display: flex;
     flex-direction: row;
     position: absolute;
     top: 242px;
     left: 314px;
     width: 864px;
-} 
+}  */
+
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 -5px;
+    position: absolute;
+    top: 242px;
+    left: 314px;
+    background-repeat: no-repeat;
+}
+.bannerBlock{
+    border-radius: 20px;
+    padding: auto;
+    flex: auto;
+
+    object-fit: cover;
+    width: 206px;
+    height: 452px;
+
+    transition-duration: 0.5s;
+}
+.bannerBlock:hover{
+    width: 249px;
+}
+.sliding-element{
+    transition-duration: 0.5s;
+    transition-property: all;
+}
+.sliding-element:hover{
+    transform: translate(-66px);}
+.corner-1{
+    width: 66px;
+    height: 187px;
+    border-radius: 0px 20px 20px 0px;
+    
+    margin-top: 251px;
+    margin-bottom: 14px;
+}
+.corner-1-text{
+    transform: rotate(-90deg);
+    position: relative;
+    top: 125px;
+    color: var(--primary-white, #FFF);
+    font-family: Gilroy;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 34.44px;
+    letter-spacing: 0.96px;
+    text-transform: uppercase;
+}
+.corner-2{}
+.sign-1{
+    color: var(--primary-white, #FFF);
+    font-family: Gilroy;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 34.44px;
+    letter-spacing: 0.96px;
+    text-transform: uppercase;
+}
+.sign-2{
+    color: var(--primary-white, #FFF);
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22.96px;
+}
+.icon{
+    width: 56px;
+    height: 56px;
+    border-radius: 56px;
+}
+.sBuild{
+    background-image: url(../../../assets/images/banner/36.png);
+}
+.sBuildIcon{
+    background-image: url(../../../assets/images/icons/05.svg);
+}
+.sUnit{
+    background-image: url(../../../assets/images/banner/35.png);
+}
+.sUnitIcon{
+    background-image: url(../../../assets/images/icons/02.svg);
+}
+.sDev{
+    background-image: url(../../../assets/images/banner/37.png);
+}
+.sDevIcon{
+    background-image: url(../../../assets/images/icons/7.svg);
+}
+.sHelp{
+    background-image: url(../../../assets/images/banner/38.png);
+}
+.sHelpIcon{
+    background-image: url(../../../assets/images/icons/04.svg);
+}
+.sCreate{
+    background-image: url(../../../assets/images/banner/39.png);
+}
+.sCreateIcon{
+    background-image: url(../../../assets/images/icons/06.svg);
+}
+.orange{background-color: #FF7800;}
+.green{background-color: #27D24D;}
+.dark-blue{background-color: #0D3765;}
+.yellowish-orange{background-color: #FFB700;}
+.purple{background-color: #7E17FF;}
