@@ -1,0 +1,49 @@
+.line {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .blue-letters{
+    color: #002ED0;
+    font-family: Gilroy;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46px;
+  }
+  .black-letters{
+    color: #3A3A3A;
+    font-family: Gilroy;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46px;
+  }
+  .row{
+      display: flex;
+      flex-direction: row;
+  }
+  .h-row{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      margin-left: 24px;
+      margin-right: 24px;
+  }
+  .column{
+      display: flex;
+      flex-direction: column;
+  }
+  .caption-2{
+    width: 410px;
+  }
+  .small-letters{
+      color: #3A3A3A;
+      font-family: Gilroy;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 22px;
+  }
