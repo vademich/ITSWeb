@@ -52,4 +52,31 @@
     height: 250px;
     border-radius: 20px;
     background-color: #FFF;
+
+    transition-duration: 0.5s;
+    transition-property: all;
+}
+.its:hover{
+    background-color: #002ED0;
+}
+.mts:hover{
+    background-color: #007FF3;
+}
+.m3:hover{
+    background-color: #2FC94C;
+}
+.mir_stroy:hover{
+    background-color: #FF7800;
+}
+.it:hover{
+    background-color: #7221D5;
+}
+.pk:hover{
+    background-color: #043860;
+}
+.kapital:hover{
+    background-color: #FFB700;
+}
+.tender:hover{
+    background-color: #00BDC8;
 }
