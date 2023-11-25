@@ -63,6 +63,7 @@
     width: 206px;
     height: 452px;
     overflow: hidden;
+    background-repeat: no-repeat;
 
     transition-duration: 0.5s;
 }
