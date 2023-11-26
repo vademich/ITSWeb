@@ -87,6 +87,14 @@
     font-weight: 700;
     line-height: 46px;
 }
+.small-letters{
+    color: #3A3A3A;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+}
 .grey-letters{
     color: #CED0E2;
     font-family: Gilroy;
